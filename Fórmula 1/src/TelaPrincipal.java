@@ -71,7 +71,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         jLabel2.setText("FÓRMULA 1");
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/f.png"))); // NOI18N
@@ -117,7 +117,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                         .addComponent(jLabel2)
                         .addGap(48, 48, 48)
                         .addComponent(jLabel1)))
-                .addContainerGap(24, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
